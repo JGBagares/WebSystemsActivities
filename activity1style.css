@@ -1,0 +1,55 @@
+body *{
+    display: flex;
+}
+#borderstyle{
+    border: 2px solid #000;
+    margin: 5px;
+    flex-direction: column;
+}
+
+header{
+    height: 100px;
+}
+
+.headerleft{
+    flex-grow: 7;
+}
+
+.headerright{
+    flex-grow: 2;
+}
+
+section{
+    flex-direction: column;
+}
+
+section{
+    height: 750px;
+    width: 30vh;
+}
+
+.leftSideUpper{
+    flex-grow: 1;
+    
+}
+
+.leftSideLower{
+    flex-grow: 1;
+    flex-grow: 1;
+}
+
+
+.mainBody{
+    width: 70vh;
+    flex-grow: 2.5;    
+}
+
+.rightSide{
+    width: 30vh;
+    flex-grow: 1;
+}
+
+footer{
+    height: 100px;
+    flex-grow: 1;
+}
